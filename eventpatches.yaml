@@ -32,6 +32,11 @@
     type: textpatch
     index: 467
     text: "You learned \x0E\x00\x03\x02\x05Din's Power\x0E\x00\x03\x02\uFFFF!"
+  - name: Get rid of Skyloft layer 8&9
+    type: flowpatch
+    index: 82 # before storyflag
+    patch:
+      next: 583 # after Storyflag
 200-Forest:
   - name: give slingshot directly
     type: flowpatch
