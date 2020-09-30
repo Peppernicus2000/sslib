@@ -8,7 +8,7 @@ global:
     - 58 # b-wheel
     - 724 # Prevent first time light pillar CS sending player always to faron
     - 789 # Set after skyward striking imp spike first time (allows dowsing option [still needs a goddess sword])
-    - 323 # Scraper repaired
+    - 323 # Scrapper repaired
     - 661 # Windmill Repaired
   objpackoarcadd:
     - GetSozaiL # Monster Horn (part of treasure)
@@ -281,6 +281,10 @@ F100: # Faron main area
     destlayer: 1
     room: 0
     objtype: OBJ
+  - name: Yerbal
+    type: oarcadd
+    oarc: ForestManWiz
+    destlayer: 1
   - name: Yerbal Spawn
     type: objpatch
     id: 0x52B6
